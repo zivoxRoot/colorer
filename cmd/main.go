@@ -8,14 +8,16 @@ import (
 
 func main() {
 	// Colors
-	fmt.Println("Je suis le meilleur " + colorer.Magenta() + "Salut a tous" + colorer.Reset())
-	fmt.Println("Je suis le meilleur " + colorer.BrightMagenta() + "Salut a tous" + colorer.Reset())
-	fmt.Println("Je suis le meilleur " + colorer.White() + "Salut a tous" + colorer.Reset())
-	fmt.Println("Je suis le meilleur " + colorer.BrightWhite() + "Salut a tous" + colorer.Reset())
-	fmt.Println("Je suis le meilleur " + colorer.Cyan() + "Salut a tous" + colorer.Reset())
-	fmt.Println("Je suis le meilleur " + colorer.BrightCyan() + "Salut a tous" + colorer.Reset())
+	fmt.Println(colorer.Magenta() + "Magenta" + colorer.Reset())
+	fmt.Println(colorer.BrightMagenta() + "Bright magenta" + colorer.Reset())
+	fmt.Println(colorer.Black() + "Black" + colorer.Reset())
+	fmt.Println(colorer.BrightBlack() + "Bright black" + colorer.Reset())
+	fmt.Println(colorer.White() + "White" + colorer.Reset())
+	fmt.Println(colorer.BrightWhite() + "Bright white" + colorer.Reset())
+	fmt.Println(colorer.Cyan() + "Cyan" + colorer.Reset())
+	fmt.Println(colorer.BrightCyan() + "Bright cyan" + colorer.Reset())
 
 	// Styles
-	fmt.Println("Je suis le meilleur " + colorer.Underline() + "Salut a tous" + colorer.Reset())
-	fmt.Println("Je suis le meilleur " + colorer.Italic() + "Salut a tous" + colorer.Reset())
+	fmt.Println(colorer.Underline() + "Underline" + colorer.Reset())
+	fmt.Println(colorer.Italic() + "Italic" + colorer.Reset())
 }
