@@ -1,0 +1,95 @@
+package colorer
+
+// Special styles
+func Reset() string {
+	return "\033[0m"
+}
+
+func Bold() string {
+	return "\033[1m"
+}
+
+func Dim() string {
+	return "\033[2m"
+}
+
+func Italic() string {
+	return "\033[3m"
+}
+
+func Underline() string {
+	return "\033[4m"
+}
+
+func Blink() string {
+	return "\033[5m"
+}
+
+func Reverse() string {
+	return "\033[7m"
+}
+
+// Colors
+func Black() string {
+	return "\033[30m"
+}
+
+func BrightBlack() string {
+	return "\033[90m"
+}
+
+func Red() string {
+	return "\033[31m"
+}
+
+func BrigtRed() string {
+	return "\033[91m"
+}
+
+func Green() string {
+	return "\033[32m"
+}
+
+func BrightGreen() string {
+	return "\033[92m"
+}
+
+func Yellow() string {
+	return "\033[33m"
+}
+
+func BrightYellow() string {
+	return "\033[93m"
+}
+
+func Blue() string {
+	return "\033[34m"
+}
+
+func BrightBlue() string {
+	return "\033[94m"
+}
+
+func Magenta() string {
+	return "\033[35m"
+}
+
+func BrightMagenta() string {
+	return "\033[95m"
+}
+
+func Cyan() string {
+	return "\033[36m"
+}
+
+func BrightCyan() string {
+	return "\033[96m"
+}
+
+func White() string {
+	return "\033[37m"
+}
+
+func BrightWhite() string {
+	return "\033[97m"
+}
