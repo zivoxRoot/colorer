@@ -21,14 +21,6 @@ func Underline() string {
 	return "\033[4m"
 }
 
-func Blink() string {
-	return "\033[5m"
-}
-
-func Reverse() string {
-	return "\033[7m"
-}
-
 // Colors
 func Black() string {
 	return "\033[30m"
@@ -42,7 +34,7 @@ func Red() string {
 	return "\033[31m"
 }
 
-func BrigtRed() string {
+func BrightRed() string {
 	return "\033[91m"
 }
 
