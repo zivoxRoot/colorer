@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"colorer/internal/colorer"
+	"github.com/zivoxRoot/colorer/internal/colorer"
 )
 
 func main() {
