@@ -7,59 +7,62 @@ import (
 )
 
 func main() {
+	colors := colorer.NewColorer()
+
 	// Colors
-	fmt.Println(colorer.Black() + "Black" + colorer.Reset())
-	fmt.Println(colorer.BrightBlack() + "Bright black" + colorer.Reset())
+	fmt.Println(colors.Black() + "Black" + colors.Reset())
+	fmt.Println(colors.BrightBlack() + "Bright black" + colors.Reset())
 
-	fmt.Println(colorer.Red() + "Red" + colorer.Reset())
-	fmt.Println(colorer.BrightRed() + "Bright red" + colorer.Reset())
+	fmt.Println(colors.Red() + "Red" + colors.Reset())
+	fmt.Println(colors.BrightRed() + "Bright red" + colors.Reset())
 
-	fmt.Println(colorer.Green() + "Green" + colorer.Reset())
-	fmt.Println(colorer.BrightGreen() + "BrightGreen" + colorer.Reset())
+	fmt.Println(colors.Green() + "Green" + colors.Reset())
+	fmt.Println(colors.BrightGreen() + "BrightGreen" + colors.Reset())
 
-	fmt.Println(colorer.Yellow() + "Yellow" + colorer.Reset())
-	fmt.Println(colorer.BrightYellow() + "Bright yellow" + colorer.Reset())
+	fmt.Println(colors.Yellow() + "Yellow" + colors.Reset())
+	fmt.Println(colors.BrightYellow() + "Bright yellow" + colors.Reset())
 
-	fmt.Println(colorer.Blue() + "Blue" + colorer.Reset())
-	fmt.Println(colorer.BrightBlue() + "Bright blue" + colorer.Reset())
+	fmt.Println(colors.Blue() + "Blue" + colors.Reset())
+	fmt.Println(colors.BrightBlue() + "Bright blue" + colors.Reset())
 
-	fmt.Println(colorer.Magenta() + "Magenta" + colorer.Reset())
-	fmt.Println(colorer.BrightMagenta() + "Bright magenta" + colorer.Reset())
+	fmt.Println(colors.Magenta() + "Magenta" + colors.Reset())
+	fmt.Println(colors.BrightMagenta() + "Bright magenta" + colors.Reset())
 
-	fmt.Println(colorer.Cyan() + "Cyan" + colorer.Reset())
-	fmt.Println(colorer.BrightCyan() + "Bright cyan" + colorer.Reset())
+	fmt.Println(colors.Cyan() + "Cyan" + colors.Reset())
+	fmt.Println(colors.BrightCyan() + "Bright cyan" + colors.Reset())
 
-	fmt.Println(colorer.White() + "White" + colorer.Reset())
-	fmt.Println(colorer.BrightWhite() + "Bright white" + colorer.Reset())
+	fmt.Println(colors.White() + "White" + colors.Reset())
+	fmt.Println(colors.BrightWhite() + "Bright white" + colors.Reset())
 
 	// Background colors
-	fmt.Println(colorer.BgBlack() + "Black" + colorer.Reset())
-	fmt.Println(colorer.BrightBgBlack() + "Bright black" + colorer.Reset())
+	fmt.Println(colors.BgBlack() + "Black" + colors.Reset())
+	fmt.Println(colors.BrightBgBlack() + "Bright black" + colors.Reset())
 
-	fmt.Println(colorer.BgRed() + "Red" + colorer.Reset())
-	fmt.Println(colorer.BrightBgRed() + "Bright red" + colorer.Reset())
+	fmt.Println(colors.BgRed() + "Red" + colors.Reset())
+	fmt.Println(colors.BrightBgRed() + "Bright red" + colors.Reset())
 
-	fmt.Println(colorer.BgGreen() + "Green" + colorer.Reset())
-	fmt.Println(colorer.BrightBgGreen() + "Bright green" + colorer.Reset())
+	fmt.Println(colors.BgGreen() + "Green" + colors.Reset())
+	fmt.Println(colors.BrightBgGreen() + "Bright green" + colors.Reset())
 
-	fmt.Println(colorer.BgYellow() + "Yellow" + colorer.Reset())
-	fmt.Println(colorer.BrightBgYellow() + "Bright yellow" + colorer.Reset())
+	fmt.Println(colors.BgYellow() + "Yellow" + colors.Reset())
+	fmt.Println(colors.BrightBgYellow() + "Bright yellow" + colors.Reset())
 
-	fmt.Println(colorer.BgBlue() + "Blue" + colorer.Reset())
-	fmt.Println(colorer.BrightBgBlue() + "Bright blue" + colorer.Reset())
+	fmt.Println(colors.BgBlue() + "Blue" + colors.Reset())
+	fmt.Println(colors.BrightBgBlue() + "Bright blue" + colors.Reset())
 
-	fmt.Println(colorer.BgMagenta() + "Magenta" + colorer.Reset())
-	fmt.Println(colorer.BrightBgMagenta() + "Bright magenta" + colorer.Reset())
+	fmt.Println(colors.BgMagenta() + "Magenta" + colors.Reset())
+	fmt.Println(colors.BrightBgMagenta() + "Bright magenta" + colors.Reset())
 
-	fmt.Println(colorer.BgCyan() + "Cyan" + colorer.Reset())
-	fmt.Println(colorer.BrightBgCyan() + "Bright cyan" + colorer.Reset())
+	fmt.Println(colors.BgCyan() + "Cyan" + colors.Reset())
+	fmt.Println(colors.BrightBgCyan() + "Bright cyan" + colors.Reset())
 
-	fmt.Println(colorer.BgWhite() + "White" + colorer.Reset())
-	fmt.Println(colorer.BrightBgWhite() + "Bright white" + colorer.Reset())
+	fmt.Println(colors.BgWhite() + "White" + colors.Reset())
+	fmt.Println(colors.BrightBgWhite() + "Bright white" + colors.Reset())
 
 	// Styles
-	fmt.Println(colorer.Bold() + "Bold" + colorer.Reset())
-	fmt.Println(colorer.Dim() + "Dim" + colorer.Reset())
-	fmt.Println(colorer.Italic() + "Italic" + colorer.Reset())
-	fmt.Println(colorer.Underline() + "Underline" + colorer.Reset())
+	fmt.Println(colors.Bold() + "Bold" + colors.Reset())
+	fmt.Println(colors.Strikethrough() + "Strikethrough" + colors.Reset())
+	fmt.Println(colors.Dim() + "Dim" + colors.Reset())
+	fmt.Println(colors.Italic() + "Italic" + colors.Reset())
+	fmt.Println(colors.Underline() + "Underline" + colors.Reset())
 }
