@@ -32,6 +32,16 @@ func main() {
 	fmt.Println(colorer.White() + "White" + colorer.Reset())
 	fmt.Println(colorer.BrightWhite() + "Bright white" + colorer.Reset())
 
+	// Background colors
+	fmt.Println(colorer.BgBlack() + "Black" + colorer.Reset())
+	fmt.Println(colorer.BgRed() + "Red" + colorer.Reset())
+	fmt.Println(colorer.BgGreen() + "Green" + colorer.Reset())
+	fmt.Println(colorer.BgYellow() + "Yellow" + colorer.Reset())
+	fmt.Println(colorer.BgBlue() + "Blue" + colorer.Reset())
+	fmt.Println(colorer.BgMagenta() + "Magenta" + colorer.Reset())
+	fmt.Println(colorer.BgCyan() + "Cyan" + colorer.Reset())
+	fmt.Println(colorer.BgWhite() + "White" + colorer.Reset())
+
 	// Styles
 	fmt.Println(colorer.Bold() + "Bold" + colorer.Reset())
 	fmt.Println(colorer.Dim() + "Dim" + colorer.Reset())
