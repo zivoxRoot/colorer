@@ -91,30 +91,62 @@ func BgBlack() string {
 	return "\033[40m"
 }
 
+func BrightBgBlack() string {
+	return "\033[100m"
+}
+
 func BgRed() string {
 	return "\033[41m"
+}
+
+func BrightBgRed() string {
+	return "\033[101m"
 }
 
 func BgGreen() string {
 	return "\033[42m"
 }
 
+func BrightBgGreen() string {
+	return "\033[102m"
+}
+
 func BgYellow() string {
 	return "\033[43m"
+}
+
+func BrightBgYellow() string {
+	return "\033[103m"
 }
 
 func BgBlue() string {
 	return "\033[44m"
 }
 
+func BrightBgBlue() string {
+	return "\033[104m"
+}
+
 func BgMagenta() string {
 	return "\033[45m"
+}
+
+func BrightBgMagenta() string {
+	return "\033[105m"
 }
 
 func BgCyan() string {
 	return "\033[46m"
 }
 
+func BrightBgCyan() string {
+	return "\033[106m"
+}
+
 func BgWhite() string {
 	return "\033[47m"
+}
+
+func BrightBgWhite() string {
+	return "\033[107m"
 }

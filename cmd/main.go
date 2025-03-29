@@ -34,13 +34,28 @@ func main() {
 
 	// Background colors
 	fmt.Println(colorer.BgBlack() + "Black" + colorer.Reset())
+	fmt.Println(colorer.BrightBgBlack() + "Bright black" + colorer.Reset())
+
 	fmt.Println(colorer.BgRed() + "Red" + colorer.Reset())
+	fmt.Println(colorer.BrightBgRed() + "Bright red" + colorer.Reset())
+
 	fmt.Println(colorer.BgGreen() + "Green" + colorer.Reset())
+	fmt.Println(colorer.BrightBgGreen() + "Bright green" + colorer.Reset())
+
 	fmt.Println(colorer.BgYellow() + "Yellow" + colorer.Reset())
+	fmt.Println(colorer.BrightBgYellow() + "Bright yellow" + colorer.Reset())
+
 	fmt.Println(colorer.BgBlue() + "Blue" + colorer.Reset())
+	fmt.Println(colorer.BrightBgBlue() + "Bright blue" + colorer.Reset())
+
 	fmt.Println(colorer.BgMagenta() + "Magenta" + colorer.Reset())
+	fmt.Println(colorer.BrightBgMagenta() + "Bright magenta" + colorer.Reset())
+
 	fmt.Println(colorer.BgCyan() + "Cyan" + colorer.Reset())
+	fmt.Println(colorer.BrightBgCyan() + "Bright cyan" + colorer.Reset())
+
 	fmt.Println(colorer.BgWhite() + "White" + colorer.Reset())
+	fmt.Println(colorer.BrightBgWhite() + "Bright white" + colorer.Reset())
 
 	// Styles
 	fmt.Println(colorer.Bold() + "Bold" + colorer.Reset())
